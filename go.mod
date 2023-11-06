@@ -14,8 +14,8 @@ retract (
 
 require (
 	github.com/armon/go-metrics v0.4.1
-	github.com/confio/ics23/go v0.9.0
 	github.com/cosmos/cosmos-sdk v0.45.15
+	github.com/cosmos/ics23/go v0.10.0
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/mux v1.8.0
@@ -33,8 +33,6 @@ require (
 	google.golang.org/protobuf v1.28.2-0.20220831092852-f930b1dc76e8
 	gopkg.in/yaml.v2 v2.4.0
 )
-
-require github.com/cosmos/ics23/go v0.10.0
 
 replace (
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1

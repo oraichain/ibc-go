@@ -459,7 +459,7 @@ proto-update-deps:
 
 ## insert go package option into proofs.proto file
 ## Issue link: https://github.com/confio/ics23/issues/32
-	@sed -i '4ioption go_package = "github.com/confio/ics23/go";' $(CONFIO_TYPES)/proofs.proto
+	@sed -i '4ioption go_package = "github.com/cosmos/ics23/go";' $(CONFIO_TYPES)/proofs.proto
 
 .PHONY: proto-all proto-gen proto-gen-any proto-swagger-gen proto-format proto-lint proto-check-breaking proto-update-deps
 
