@@ -5,9 +5,9 @@ package types
 
 import (
 	fmt "fmt"
-	_go "github.com/confio/ics23/go"
 	types "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
 	types1 "github.com/cosmos/ibc-go/v4/modules/core/23-commitment/types"
+	_go "github.com/cosmos/ics23/go"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"

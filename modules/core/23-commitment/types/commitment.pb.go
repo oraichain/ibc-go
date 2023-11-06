@@ -5,7 +5,7 @@ package types
 
 import (
 	fmt "fmt"
-	_go "github.com/confio/ics23/go"
+	_go "github.com/cosmos/ics23/go"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
